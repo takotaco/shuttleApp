@@ -11,7 +11,7 @@ var Escortroute = 7;
 var Shuttlepickups = 8;
 
 function allKMLRoutes(map) {
-  showRoute(RouteA, map);
+  /*showRoute(RouteA, map);
   showRoute(RouteB, map);
   showRoute(RouteAB, map);
   showRoute(RouteC, map);
@@ -19,7 +19,7 @@ function allKMLRoutes(map) {
   showRoute(BakerySquareS, map);
   showRoute(PTCroute, map);
   showRoute(Escortroute, map);
-  showRoute(Shuttlepickups, map);
+  */showRoute(Shuttlepickups, map);
 }
 
 function showRoute(route, map) {
