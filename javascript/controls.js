@@ -1,3 +1,4 @@
+
 function HomeControl(controlDiv, map) {
 
     // Set CSS styles for the DIV containing the control
@@ -7,9 +8,9 @@ function HomeControl(controlDiv, map) {
 
     // Set CSS for the control border.
     var controlUI = document.createElement('div');
-    controlUI.style.backgroundColor = 'white';
+    controlUI.style.backgroundColor = 'yellow';
     controlUI.style.borderStyle = 'solid';
-    controlUI.style.borderWidth = '2px';
+    controlUI.style.borderWidth = '3px';
     controlUI.style.cursor = 'pointer';
     controlUI.style.textAlign = 'center';
     controlUI.title = 'Click to set the map to Home';
@@ -21,11 +22,24 @@ function HomeControl(controlDiv, map) {
     controlText.style.fontSize = '12px';
     controlText.style.paddingLeft = '4px';
     controlText.style.paddingRight = '4px';
-    controlText.innerHTML = '<strong>Home<strong>';
+    controlText.innerHTML = '<strong>Where Am i?<strong>';
     controlUI.appendChild(controlText);
 
-  // Setup the click event listeners: simply set the map to Chicago.
-  google.maps.event.addDomListener(controlUI, 'click', function() {
-    map.setCenter(chicago)
-  });
+    // Setup the click event listeners: simply set the map to current location.
+    google.maps.event.addDomListener(controlUI, 'click', function() {
+	    // get longitude and latitude
+	    geolocate();
+	    // set point to (lat,long)
+	    map.setCenter(point);
+	    // set variables for future use
+	    mylat = point.lat();
+	    mylong =point.lng();
+	    //Add marker
+	    Currentmarker = new google.maps.Marker({
+		    position: point,
+		    map: map,
+		    title:"You are here"
+		});
+
+	});
 }
