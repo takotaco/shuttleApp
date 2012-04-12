@@ -6,44 +6,49 @@ var BakerySquareL = 4;
 var BakerySquareS = 5;
 var PTCroute = 6;
 
-// uses google directions(walk)
+
+// ALGORITHM FOR CALULCATING BEST STOP
+//
+// 1. calulate the best possible geton stop/ get off stop for each route
+//    a. find the nearest get on point
+//    b. find the nearest get off point from points ahead of get-on
+// 2. find the shortest path one
+// 3. done
+//
+
+
+/*
+THINGS TO DO:
+1. certain routes based on time
+2. if distance is short enough to walk there without shuttle then do it
+*/
+
+/*
+THINGS DONE:
+1. added "pittsburgh,PA" to all queries to make geocoder better
+
+ */
+
+
+// uses spherical shape of earth
 // to calculate distance between
 // two points
-
-
-function getWalkingDistance(start,stop){
-    alert("helo");
-    alert(start);
-    alert(stop);
-
-    var request = {
-	origin: start,
-	destination: stop,
-	travelMode: google.maps.DirectionsTravelMode.WALKING
-    };
-    directionsService.route(request, function(response, status) {
-	    if (status == google.maps.DirectionsStatus.OK) {
-		alert("woo");
-		// Display the distance:
-		alert(response.routes[0].legs[0].distance.value);
-		return response.routes[0].legs[0].distance.value;
-
-	    }
-	});
-    alert("failed");
-    return 1000000;
+function getDistance(x1,y1,x2,y2){
+    var d1=new google.maps.LatLng(x1, y1);
+    var d2=new google.maps.LatLng(x2, y2);
+    var distance = Math.ceil(google.maps.geometry.spherical.computeDistanceBetween(d1,d2));
+    return distance;
 }
 
-
-
-function stopToEnd(route,end,ith){
+// helper function for start to end
+// given a route and a destination, find the closest stop
+function stopToEnd(route,endx,endy,ith){
     var nearestStop;
     var minDistance = 999999;
-
     for (var i = ith; i < route.length; i++) {
 	var x = route[i][0];
 	var y = route[i][1];
-	var distance = getWalkingDistance(x+","+y,end);
+	var distance = getDistance(y,x,endx,endy);
 
 	if (distance < minDistance) {
 	    minDistance = distance;
@@ -53,80 +58,88 @@ function stopToEnd(route,end,ith){
     return [minDistance,nearestStop];
 }
 
-
-
-
-function startToEnd(start,route){
+// given a route and a destination
+// find the closest stop to get on
+// and then calls stopToEnd to
+// find the closest stop to get off
+function startToEnd(route,endx,endy){
     var nearestStop;
     var ith;
     var minDistance = 999999;
-    var distance= 10000000;
-    for (var i = 0; i < 1; i++) {
-	//   for (var i = 0; i < route.length; i++) {
+    var distance= 1000000000;
 
+    for (var i = 0; i < route.length; i++) {
 	var x = route[i][0];
 	var y = route[i][1];
-	var distance = getWalkingDistance(start,x+","+y);
+	var distance = getDistance(mylat,mylong,y,x);
 	if (distance < minDistance) {
 	    minDistance = distance;
 	    ith = i;
 	    nearestStop = route[i];
 	}
     }
-    var res2= stopToEnd(route,end,ith);
+    var res2= stopToEnd(route,endx,endy,ith);
     return [minDistance+res2[0], nearestStop,res2[1]];
 
 }
 
-
-function getBestStops(){
-    geolocate();
-    var begin = mylat+","+mylong;
-    var end = document.getElementById("address").value;
-    alert(":" +begin);
-    alert(":" +end);
-    var exp =getWalkingDistance(begin,end);
-    alert(exp);
-
-
+// given a destination, uses current location
+// to find best shuttle route to get on and off at
+function getBestStops(endx,endy){
     var minDist= 999999;
     var getOn;
     var getOff;
     var routes = [routeA, routeB, routeAB, routeC, bakerySquareL, bakerySquareS, PTC];
-
-    for (var i=0; i < 2; i++){
-	//    for (var i=0; i < routes.length; i++){
-	var res = startToEnd(begin,routes[i]);
-	if (res[0]<minDist){
-	    minDist=res[0];
-	    getOn= res[1];
-	    getOff=res[2];
-	}
+    for (var i=0; i < routes.length; i++){
+        var res = startToEnd(routes[i],endx,endy);
+        if (res[0]<minDist){
+            minDist=res[0];
+            getOn= res[1];
+            getOff=res[2];
+        }
     }
     return [getOn,getOff];
 
 }
 
-
-/*
-function getClosestStop ((lon, lat), routes) {
-  var nearestStop;
-  var route;
-  var minDistance = 100;
-  for (int i = 0; i < routes.length(); i++) {
-    for (int j = 0; j < routes[i].length(); j++) {
-      var (x, y) = routes[i][j];
-      var distance = Math.sqrt(Math.pow(lon - x, 2) + Math.pow(lat - y, 2));
-      if (distance < minDistance) {
-        minDistance = distance;
-        route = i;
-        nearestStop = routes[i][j];
-      }
-    }
-  }
-  return (route, nearestStop);
+// geocodes the destination before main function called
+// this is neededed to avoid asynchronous calls
+// after main function is called it gets everything
+function preGetBestStops(){
+    var end = document.getElementById("address").value+" ,pittsburgh,PA";
+    var endx;
+    var endy;
+    var waitforgeocode=false;
+    // geocode destination
+    geocoder.geocode( { 'address': end}, function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                endx=results[0].geometry.location.lat();
+		endy=results[0].geometry.location.lng();
+		// find the best stops
+		stops = getBestStops(endx,endy);
+		// make the route with waypoints as stops
+		var request = {
+		    origin:mylat+","+mylong,
+		    destination:endx+","+endy,
+		    waypoints: [{
+			    location:stops[0][1]+","+stops[0][0],
+			    stopover:true},{
+			    location:stops[1][1]+","+stops[1][0],
+			    stopover:true}],
+		    travelMode: google.maps.DirectionsTravelMode.WALKING
+		};
+		directionsService.route(request, function(response, status) {
+			if (status == google.maps.DirectionsStatus.OK) {
+			    directionsDisplay.setDirections(response);
+			    alert("Walk to point B, get on. get off a point C, walk to point D");
+			}
+		    });
+            }
+	});
 }
-*/
+
+
+
 
 //can make this more careful and case on hour as well. . . kinda annoying
 /*
