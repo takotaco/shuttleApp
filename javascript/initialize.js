@@ -1,6 +1,5 @@
-var map;
-var geocoder;
-var chicago = new google.maps.LatLng(41.850033, -87.6500523);
+
+
 function initialize() {
 
     // create the map with certain specs
@@ -24,8 +23,5 @@ function initialize() {
     var homeControl = new HomeControl(homeControlDiv, map);
     homeControlDiv.index = 1;
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(homeControlDiv);
-
-
-
 }
 
