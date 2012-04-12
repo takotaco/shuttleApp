@@ -19,8 +19,9 @@ var PTCroute = 6;
 
 /*
 THINGS TO DO:
-1. certain routes based on time
+1. certain routes based on time (line 92 ish)
 2. if distance is short enough to walk there without shuttle then do it
+3. add waypoints between stops to make the actual path more accurate ~line126
 */
 
 /*
@@ -131,7 +132,7 @@ function preGetBestStops(){
 		directionsService.route(request, function(response, status) {
 			if (status == google.maps.DirectionsStatus.OK) {
 			    directionsDisplay.setDirections(response);
-			    alert("Walk to point B, get on. get off a point C, walk to point D");
+			    alert("Walk to point B, get on shuttle. get off a point C, walk to point D");
 			}
 		    });
             }
