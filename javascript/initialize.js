@@ -11,10 +11,15 @@ function initialize() {
     map = new google.maps.Map(document.getElementById("map_canvas"),
 				  myOptions);
 
+
+    // initialize directions
+    directionsDisplay = new google.maps.DirectionsRenderer();
+    directionsDisplay.setMap(map);
     // add route layers
     allKMLRoutes(map);
     // install the geocoder
     geocoder = new google.maps.Geocoder();
+    geolocate();
     // detect browser and adjust accordingly
     detectBrowser();
     // Create the DIV to hold the control and call the HomeControl() constructor

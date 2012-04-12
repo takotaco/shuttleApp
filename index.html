@@ -8,7 +8,7 @@
       #map_canvas { height: 100% }
     </style>
     <script type="text/javascript"
-      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHuRsJH37S3hiW7ig9SJBnCJQ_1H3Zf_w&sensor=true">
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHuRsJH37S3hiW7ig9SJBnCJQ_1H3Zf_w&sensor=true&libraries=geometry">
     </script>
 
 
@@ -26,13 +26,19 @@
     <script src="javascript/routes.js"></script>
     <!-- geocoding -->
     <script src="javascript/geocode.js"></script>
-
+    <!-- current location to nearest bus stop -->
+    <script src="javascript/calculateRoute.js"></script>
     <!-- Initialize google maps-->
     <script src="javascript/initialize.js"></script>
+    <!-- stops -->
+    <script src="javascript/stops.js"></script>
+
+
   </head>
   <div id="menu">
     <input id="address" type = "textbox" value="CMU, Pittsburgh">
     <input id="button" type="button" value="click here if you think jim is awesome" onclick="codeAddress()">
+    <input id="button2" type="button" value="directions to entered address from where you are" onclick="calcRoute()">
   </div>
   <div id="map_canvas"></div>
   <!-- initialioze everything-->

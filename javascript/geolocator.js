@@ -1,6 +1,3 @@
-
-
-
 function geolocate(){
     // Determine support for Geolocation
     if (navigator.geolocation) {
@@ -14,6 +11,15 @@ function geolocate(){
 // Success callback function
 function displayPosition(pos) {
     point = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
+    // set variables for future use
+    mylat = point.lat();
+    mylong =point.lng();
+    //Add marker
+    Currentmarker = new google.maps.Marker({
+	    position: point,
+	    map: map,
+	    title:"You are here"
+	});
 }
 // Error callback function
 function errorFunction(pos) {

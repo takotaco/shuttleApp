@@ -27,19 +27,9 @@ function HomeControl(controlDiv, map) {
 
     // Setup the click event listeners: simply set the map to current location.
     google.maps.event.addDomListener(controlUI, 'click', function() {
-	    // get longitude and latitude
+	    // call geolocate
 	    geolocate();
 	    // set point to (lat,long)
 	    map.setCenter(point);
-	    // set variables for future use
-	    mylat = point.lat();
-	    mylong =point.lng();
-	    //Add marker
-	    Currentmarker = new google.maps.Marker({
-		    position: point,
-		    map: map,
-		    title:"You are here"
-		});
-
 	});
 }
