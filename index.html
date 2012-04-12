@@ -10,20 +10,28 @@
     <script type="text/javascript"
       src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHuRsJH37S3hiW7ig9SJBnCJQ_1H3Zf_w&sensor=true">
     </script>
-    
+
 
     <!-- our Javascripts -->
+
+    <!-- different settings based on mobile phone/ webpage -->
+    <script src="javascript/detectBrowser.js"></script>
+    <!-- Initialize google maps-->
     <script src="javascript/initialize.js"></script>
+    <!-- embeded buttons on the map-->
     <script src="javascript/controls.js"></script>
+    <!-- kml routes -->
     <script src="javascript/routes.js"></script>
+    <!-- geocoding -->
     <script src="javascript/geocode.js"></script>
 
   </head>
   <div id="menu">
     <input id="address" type = "textbox" value="CMU, Pittsburgh">
-    <input id="button" type="button" value="Find" onclick="codeAddress()">
+    <input id="button" type="button" value="click here if you think jim is awesome" onclick="codeAddress()">
   </div>
+  <div id="map_canvas"></div>
+  <!-- initialioze everything-->
   <body onload="initialize()">
-    <div id="map_canvas" style="width:100%; height:100%"></div>
   </body>
 </html>
