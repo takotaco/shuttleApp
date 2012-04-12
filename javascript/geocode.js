@@ -1,3 +1,5 @@
+
+// test
 function showAddress(address) {
     if (geocoder) {
         geocoder.getLatLng(address,
