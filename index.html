@@ -16,9 +16,13 @@
     <script src="javascript/initialize.js"></script>
     <script src="javascript/controls.js"></script>
     <script src="javascript/routes.js"></script>
-
+    <script src="javascript/geocode.js"></script>
 
   </head>
+  <div id="menu">
+    <input id="address" type = "textbox" value="CMU, Pittsburgh">
+    <input id="button" type="button" value="Enter address, then click" onclick="codeAddress()">
+  </div>
   <body onload="initialize()">
     <div id="map_canvas" style="width:100%; height:100%"></div>
   </body>
