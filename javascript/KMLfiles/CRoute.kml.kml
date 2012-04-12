@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>C Route</name>
+  <description><![CDATA[]]></description>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <LineStyle>
+      <color>BF0000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Style id="style15">
+    <LineStyle>
+      <color>BF0000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Morewood Gardens Turn-around</name>
+    <description><![CDATA[<div dir="ltr">Start/End of Route<br><br></div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-79.942741,40.445427,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at North Neville Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - C Route</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-79.947166,40.447052,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Craig Street and Winthrop Street</name>
+    <description><![CDATA[<div dir="ltr">C Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-79.948891,40.445553,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue (Hamburg Hall)</name>
+    <description><![CDATA[<div dir="ltr">C Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-79.945969,40.444546,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue (University Center)</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-79.941612,40.444355,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue at Margaret Morrison Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-79.937706,40.442696,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue at Wightman Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-79.927826,40.437992,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wightman Street at Bartlett Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-79.927719,40.435802,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wightman Street at Beacon Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-79.927696,40.434189,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wightman Street at Hobart Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-79.927658,40.432671,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wightman Street at Phillips Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.927589,40.431095,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wightman Street at Pocusset Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-79.927513,40.429379,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pocusset Street at Murray Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-79.923630,40.429668,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forward Avenue at Shady Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-79.921593,40.429096,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forward Avenue at Tilbury Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-79.918671,40.428398,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forward Avenue at Beechwood Blvd.</name>
+    <description><![CDATA[<div dir="ltr">C Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-79.916229,40.427883,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at Nicholson Street</name>
+    <description><![CDATA[<div dir="ltr">C Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-79.915192,40.430191,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at Phillips Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-79.915024,40.432495,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at Douglas Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-79.914124,40.433453,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at Darlington Road</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-79.912498,40.435146,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at South Dallas Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route -  Scheduled Stop</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-79.913338,40.437687,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at Forbes Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-79.915970,40.437885,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beechwood Blvd. at Dalzell Place</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.916656,40.441296,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilkins Avenue at Denniston Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-79.919144,40.444107,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilkins Avenue at Shady Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-79.920494,40.443928,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>WIlkins Avenue at Murray Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-79.923759,40.444038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilkins Avenue at South Negley Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-79.925926,40.444122,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilkins Avenue at Wightman Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-79.927788,40.444221,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilkins Avenue at Bellerock Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-79.929161,40.444691,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilkins Avenue at Fair Oaks Street</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-79.930153,40.445194,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beeler Street at Wilkins Avenue</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-79.931252,40.445660,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beeler Street at Beelermont Place</name>
+    <description><![CDATA[<div dir="ltr">C Route-Scheduled Stop</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-79.933266,40.445492,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beeler Street at Unger Lane</name>
+    <description><![CDATA[<div dir="ltr">C Route -  Scheduled Stop</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-79.936630,40.444927,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C-Route</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.943001,40.444611,0.000000
+        -79.940849,40.444279,0.000000
+        -79.938812,40.443901,0.000000
+        -79.937401,40.442463,0.000000
+        -79.936203,40.441116,0.000000
+        -79.933113,40.437801,0.000000
+        -79.932571,40.437714,0.000000
+        -79.931854,40.437759,0.000000
+        -79.930466,40.437859,0.000000
+        -79.927711,40.438049,0.000000
+        -79.927414,40.429302,0.000000
+        -79.927681,40.438030,0.000000
+        -79.927422,40.429298,0.000000
+        -79.926727,40.429276,0.000000
+        -79.926285,40.429337,0.000000
+        -79.925369,40.429466,0.000000
+        -79.923561,40.429745,0.000000
+        -79.921349,40.429241,0.000000
+        -79.917587,40.428139,0.000000
+        -79.916840,40.428009,0.000000
+        -79.916100,40.427944,0.000000
+        -79.915207,40.430351,0.000000
+        -79.915161,40.431564,0.000000
+        -79.914986,40.432796,0.000000
+        -79.914711,40.433140,0.000000
+        -79.914330,40.433392,0.000000
+        -79.914047,40.433525,0.000000
+        -79.913757,40.433575,0.000000
+        -79.913193,40.433701,0.000000
+        -79.912682,40.433819,0.000000
+        -79.912498,40.433887,0.000000
+        -79.912346,40.433979,0.000000
+        -79.912064,40.434250,0.000000
+        -79.912552,40.435162,0.000000
+        -79.912483,40.435238,0.000000
+        -79.912407,40.435318,0.000000
+        -79.912239,40.435429,0.000000
+        -79.911873,40.435493,0.000000
+        -79.911514,40.435532,0.000000
+        -79.910789,40.435616,0.000000
+        -79.910049,40.435715,0.000000
+        -79.909691,40.435772,0.000000
+        -79.909332,40.435848,0.000000
+        -79.909119,40.435997,0.000000
+        -79.908920,40.436211,0.000000
+        -79.908852,40.436443,0.000000
+        -79.908829,40.436554,0.000000
+        -79.908852,40.436687,0.000000
+        -79.909012,40.437012,0.000000
+        -79.909142,40.437138,0.000000
+        -79.909309,40.437229,0.000000
+        -79.910316,40.437550,0.000000
+        -79.910820,40.437717,0.000000
+        -79.911072,40.437809,0.000000
+        -79.911217,40.437862,0.000000
+        -79.911324,40.437897,0.000000
+        -79.912201,40.437901,0.000000
+        -79.913033,40.437721,0.000000
+        -79.913895,40.437515,0.000000
+        -79.914337,40.437435,0.000000
+        -79.914780,40.437382,0.000000
+        -79.914940,40.437378,0.000000
+        -79.915108,40.437374,0.000000
+        -79.915428,40.437408,0.000000
+        -79.915833,40.437592,0.000000
+        -79.916008,40.437801,0.000000
+        -79.916222,40.438499,0.000000
+        -79.916481,40.439812,0.000000
+        -79.917763,40.444328,0.000000
+        -79.920303,40.443901,0.000000
+        -79.920486,40.443874,0.000000
+        -79.920334,40.443901,0.000000
+        -79.920578,40.443867,0.000000
+        -79.920235,40.443913,0.000000
+        -79.920448,40.443874,0.000000
+        -79.920563,40.443867,0.000000
+        -79.920670,40.443867,0.000000
+        -79.920525,40.443871,0.000000
+        -79.920387,40.443882,0.000000
+        -79.920258,40.443909,0.000000
+        -79.920113,40.443928,0.000000
+        -79.920479,40.443871,0.000000
+        -79.920670,40.443867,0.000000
+        -79.920868,40.443874,0.000000
+        -79.921036,40.443882,0.000000
+        -79.921371,40.443882,0.000000
+        -79.922401,40.443928,0.000000
+        -79.923950,40.443966,0.000000
+        -79.925491,40.444000,0.000000
+        -79.926773,40.444050,0.000000
+        -79.927414,40.444073,0.000000
+        -79.928047,40.444157,0.000000
+        -79.930260,40.445217,0.000000
+        -79.931038,40.445541,0.000000
+        -79.931305,40.445656,0.000000
+        -79.931564,40.445614,0.000000
+        -79.931816,40.445587,0.000000
+        -79.932098,40.445564,0.000000
+        -79.932358,40.445541,0.000000
+        -79.934517,40.445374,0.000000
+        -79.933151,40.445469,0.000000
+        -79.934860,40.445354,0.000000
+        -79.935204,40.445347,0.000000
+        -79.935539,40.445320,0.000000
+        -79.935677,40.445309,0.000000
+        -79.935753,40.445290,0.000000
+        -79.935814,40.445267,0.000000
+        -79.936081,40.445152,0.000000
+        -79.936661,40.444885,0.000000
+        -79.937309,40.444569,0.000000
+        -79.938232,40.444160,0.000000
+        -79.938538,40.444023,0.000000
+        -79.938675,40.443954,0.000000
+        -79.938751,40.443920,0.000000
+        -79.938797,40.443905,0.000000
+        -79.938812,40.443909,0.000000
+        -79.938820,40.443905,0.000000
+        -79.938828,40.443905,0.000000
+        -79.938828,40.443905,0.000000
+        -79.940781,40.444279,0.000000
+        -79.942749,40.444580,0.000000
+        -79.942986,40.444611,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>C ROUTE</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.942535,40.445560,0.000000
+        -79.942276,40.445919,0.000000
+        -79.942276,40.446426,0.000000
+        -79.942429,40.447487,0.000000
+        -79.949013,40.446980,0.000000
+        -79.948669,40.444416,0.000000
+        -79.945747,40.444580,0.000000
+        -79.942856,40.444611,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

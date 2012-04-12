@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Escort</name>
+  <description><![CDATA[]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Frew Street (Porter Hall)</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-79.946632,40.441452,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Morewood E-Tower (Rear)</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-79.943703,40.445229,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue (Hamburg Hall)</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-79.945656,40.444523,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue (University Center)</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-79.941887,40.444401,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Margaret Morrison Plaza</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-79.938828,40.442097,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tech Street and Frew Street (Tepper)</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.942421,40.440536,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Dithridge at Winthrop Street</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-79.950409,40.445625,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>4616 Henry Street (INI)</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-79.948090,40.446434,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>300 South Craig Street</name>
+    <description><![CDATA[<div dir="ltr">Escort Pick-up</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.948929,40.445721,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

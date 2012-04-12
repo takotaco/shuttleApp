@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>AB Route</name>
+  <description><![CDATA[]]></description>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <LineStyle>
+      <color>BF0000FF</color>
+      <width>12</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Morewood Gardens Turn-around</name>
+    <description><![CDATA[<div dir="ltr">Start/End of Route<br><br>For departure times:  www.cmu.edu/police/shuttleandescort</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-79.942711,40.445511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbes Avenue at South Craig Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-79.948563,40.444530,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Dithridge Street at Winthrop Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-79.950356,40.445648,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>North Dithridge Street at Fifth Avenue</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop<br><br>Across from Webster Hall Entrance</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-79.950623,40.446987,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>North Dithridge Street at Bayard Street </name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-79.951691,40.448940,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>North Dithridge Street at Centre Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route </div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-79.953110,40.451420,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at Melwood Avenue</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-79.951004,40.452026,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at North Neville Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-79.949738,40.452415,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at Devonshire Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-79.946632,40.453453,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at Morewood Avenue</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-79.944595,40.453869,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue and Cypress Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-79.941597,40.454865,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at South Aiken Avenue</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-79.938881,40.455566,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ellsworth Avenue at Bellfonte Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-79.935364,40.453316,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ellsworth Avenue at Ivy Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-79.933624,40.454159,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ellsworth Avenue and South Negley Avenue</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-79.932793,40.454506,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Negley Avenue at East Busway</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-79.933525,40.456478,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at South Euclid Avenue</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-79.928978,40.458710,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Penn Circle South at Trade Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-79.926392,40.459431,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Penn Circle South at Shakespeare Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route -  Scheduled Stop</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-79.923553,40.460323,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Marchland Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.922401,40.457310,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Walnut Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.922684,40.455936,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Howe Street</name>
+    <description><![CDATA[<div dir="ltr">AB Route - Scheduled Stop</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-79.921951,40.454563,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Fifth Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-79.920959,40.453037,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Highland Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-79.923958,40.452049,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at College Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-79.925819,40.451389,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Maryland Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-79.927444,40.450703,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Negley Avenue </name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-79.929527,40.450150,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Bellefonte Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-79.932465,40.449104,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Aiken Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-79.934036,40.448612,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Wilkins Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - AB Route</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-79.936859,40.447914,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>AB ROUTE</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style16</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.942268,40.445999,0.000000
+        -79.943207,40.444721,0.000000
+        -79.948334,40.444530,0.000000
+        -79.950089,40.444099,0.000000
+        -79.950394,40.444820,0.000000
+        -79.950470,40.446449,0.000000
+        -79.950989,40.447762,0.000000
+        -79.951889,40.449001,0.000000
+        -79.952293,40.449692,0.000000
+        -79.953346,40.451519,0.000000
+        -79.938538,40.455891,0.000000
+        -79.937828,40.454601,0.000000
+        -79.936699,40.452721,0.000000
+        -79.932579,40.454781,0.000000
+        -79.933937,40.457260,0.000000
+        -79.922752,40.460629,0.000000
+        -79.921577,40.460220,0.000000
+        -79.921204,40.460041,0.000000
+        -79.920898,40.459759,0.000000
+        -79.921982,40.459160,0.000000
+        -79.922272,40.458340,0.000000
+        -79.922539,40.455791,0.000000
+        -79.920822,40.452980,0.000000
+        -79.935806,40.447929,0.000000
+        -79.942360,40.447498,0.000000
+        -79.942268,40.446220,0.000000
+        -79.942528,40.445599,0.000000
+        -79.942909,40.444889,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

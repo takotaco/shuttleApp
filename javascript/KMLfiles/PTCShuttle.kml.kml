@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>PTC Shuttle</name>
+  <description><![CDATA[]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>BF0000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Morewood Gardens Turn-around</name>
+    <description><![CDATA[<div dir="ltr">Start/End of Route<br><br>For departure times:  www.cmu.edu/police/shuttleandescort</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-79.942734,40.445511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Frew Street at Tech Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled PTC Shuttle Stop</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.942329,40.440536,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Frew Street (Porter Hall)</name>
+    <description><![CDATA[<div dir="ltr">Scheduled PTC Shuttle Stop</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-79.946823,40.441544,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>PTC-Pittsburgh Technology Center</name>
+    <description><![CDATA[<div dir="ltr">Start/End of Route<br><br>For departure times:  www.cmu.edu/police/shuttleandescort</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.964249,40.432640,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>PTC Shuttle</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <ExtendedData>
+      <Data name="_SnapToRoads">
+        <value>true</value>
+      </Data>
+    </ExtendedData>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.942513,40.445511,0.000000
+        -79.943001,40.444641,0.000000
+        -79.943001,40.444641,0.000000
+        -79.939171,40.443989,0.000000
+        -79.938812,40.443901,0.000000
+        -79.938240,40.443378,0.000000
+        -79.937599,40.442680,0.000000
+        -79.937599,40.442680,0.000000
+        -79.938652,40.442200,0.000000
+        -79.940369,40.441502,0.000000
+        -79.941566,40.441769,0.000000
+        -79.941566,40.441769,0.000000
+        -79.942177,40.440430,0.000000
+        -79.942177,40.440430,0.000000
+        -79.944267,40.440941,0.000000
+        -79.947021,40.441509,0.000000
+        -79.947342,40.441448,0.000000
+        -79.947639,40.441261,0.000000
+        -79.948227,40.440750,0.000000
+        -79.948227,40.440750,0.000000
+        -79.947769,40.440479,0.000000
+        -79.946922,40.439720,0.000000
+        -79.946732,40.439240,0.000000
+        -79.946487,40.438801,0.000000
+        -79.946503,40.438679,0.000000
+        -79.946503,40.438679,0.000000
+        -79.947083,40.438171,0.000000
+        -79.947151,40.438011,0.000000
+        -79.946518,40.436432,0.000000
+        -79.946487,40.436138,0.000000
+        -79.946487,40.436138,0.000000
+        -79.946960,40.435390,0.000000
+        -79.947113,40.435230,0.000000
+        -79.947113,40.435230,0.000000
+        -79.947800,40.434841,0.000000
+        -79.948341,40.434662,0.000000
+        -79.951447,40.434280,0.000000
+        -79.951881,40.434261,0.000000
+        -79.954597,40.434620,0.000000
+        -79.956413,40.435181,0.000000
+        -79.957657,40.435680,0.000000
+        -79.957657,40.435680,0.000000
+        -79.957703,40.435768,0.000000
+        -79.957611,40.435921,0.000000
+        -79.957611,40.435921,0.000000
+        -79.956177,40.435951,0.000000
+        -79.956177,40.435951,0.000000
+        -79.956413,40.435181,0.000000
+        -79.956413,40.435181,0.000000
+        -79.956520,40.434879,0.000000
+        -79.956680,40.434669,0.000000
+        -79.958382,40.433369,0.000000
+        -79.958603,40.431961,0.000000
+        -79.959183,40.431129,0.000000
+        -79.959183,40.431129,0.000000
+        -79.959770,40.430611,0.000000
+        -79.959770,40.430611,0.000000
+        -79.960457,40.431068,0.000000
+        -79.960854,40.431129,0.000000
+        -79.961128,40.431221,0.000000
+        -79.962692,40.432171,0.000000
+        -79.964172,40.432732,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

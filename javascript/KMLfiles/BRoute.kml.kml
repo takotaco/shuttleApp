@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>B Route</name>
+  <description><![CDATA[]]></description>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>BF0000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Morewood Gardens Turn-around</name>
+    <description><![CDATA[<div dir="ltr">Start/End of Route</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-79.942764,40.445560,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Wilkins Avenue</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-79.937233,40.447731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Aiken Avenue</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-79.934380,40.448189,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Bellefonte Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-79.932724,40.448711,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Negley at Howe Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-79.930237,40.451111,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Negley Avenue at Walnut Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop <br><br>&nbsp;</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-79.930710,40.451977,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Negely Avenue and Elmer Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-79.931564,40.453346,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Negely Avenue at Ellsworth Avenue</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-79.932434,40.454632,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Negley Avenue at East Busway</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop <br><br>&nbsp;</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-79.933517,40.456509,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre Avenue at South Euclid Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled Stop - B Route</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-79.928993,40.458771,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Penn Circle South at Trade Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop <br><br>&nbsp;</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-79.926437,40.459518,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Penn Circle South at Shakespeare Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop </div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-79.923546,40.460377,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Marchand Street</name>
+    <description><![CDATA[<div dir="ltr">Route B- Scheduled Stop</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-79.922523,40.457233,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Walnut Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-79.922630,40.455910,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Howe Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-79.921974,40.454556,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Fifth Avenue</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-79.921135,40.453022,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Emerson Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.922318,40.452728,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Highland Avenue</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.923927,40.452141,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at College Street</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-79.925774,40.451389,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Maryland Avenue</name>
+    <description><![CDATA[<div dir="ltr">Route B - Scheduled Stop</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-79.927361,40.450768,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>B ROUTE</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.942657,40.445461,0.000000
+        -79.942291,40.445850,0.000000
+        -79.942291,40.446442,0.000000
+        -79.942459,40.447418,0.000000
+        -79.935883,40.447941,0.000000
+        -79.934464,40.448311,0.000000
+        -79.931580,40.449211,0.000000
+        -79.934891,40.448181,0.000000
+        -79.933769,40.448502,0.000000
+        -79.929718,40.449821,0.000000
+        -79.934036,40.457268,0.000000
+        -79.928375,40.458958,0.000000
+        -79.925545,40.459801,0.000000
+        -79.924149,40.460228,0.000000
+        -79.923485,40.460415,0.000000
+        -79.922806,40.460636,0.000000
+        -79.922478,40.460510,0.000000
+        -79.922112,40.460407,0.000000
+        -79.921738,40.460278,0.000000
+        -79.921562,40.460205,0.000000
+        -79.921394,40.460125,0.000000
+        -79.921112,40.459972,0.000000
+        -79.920853,40.459801,0.000000
+        -79.922043,40.459202,0.000000
+        -79.922531,40.456799,0.000000
+        -79.922493,40.455780,0.000000
+        -79.920807,40.452950,0.000000
+        -79.922081,40.452671,0.000000
+        -79.925278,40.451431,0.000000
+        -79.929703,40.449821,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

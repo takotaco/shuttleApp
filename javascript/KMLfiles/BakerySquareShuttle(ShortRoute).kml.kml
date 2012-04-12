@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Bakery Square Shuttle (Short Route)</name>
+  <description><![CDATA[Short Route]]></description>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <LineStyle>
+      <color>8C0000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>8C0000FF</color>
+      <width>10</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>CIC</name>
+    <description><![CDATA[<div dir="ltr">Start of Route</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.946129,40.444508,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bakery Square (Short Route)</name>
+    <description><![CDATA[<div dir="ltr">Monday - Friday<br><br>10:30 a.m. - 1:45 p.m.</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.945854,40.444553,0.000000
+        -79.943001,40.444645,0.000000
+        -79.942314,40.445820,0.000000
+        -79.942253,40.446114,0.000000
+        -79.942444,40.447445,0.000000
+        -79.935898,40.447933,0.000000
+        -79.935234,40.448067,0.000000
+        -79.929680,40.449829,0.000000
+        -79.927437,40.450523,0.000000
+        -79.923950,40.451992,0.000000
+        -79.922050,40.452694,0.000000
+        -79.920486,40.452950,0.000000
+        -79.912483,40.454018,0.000000
+        -79.912544,40.454147,0.000000
+        -79.915421,40.456108,0.000000
+        -79.919403,40.458801,0.000000
+        -79.920761,40.459896,0.000000
+        -79.922043,40.459194,0.000000
+        -79.922523,40.455872,0.000000
+        -79.921684,40.454433,0.000000
+        -79.921211,40.453659,0.000000
+        -79.920944,40.453281,0.000000
+        -79.920708,40.452923,0.000000
+        -79.920784,40.452892,0.000000
+        -79.921921,40.452721,0.000000
+        -79.924034,40.451927,0.000000
+        -79.926193,40.451046,0.000000
+        -79.927681,40.450466,0.000000
+        -79.929680,40.449829,0.000000
+        -79.935432,40.448040,0.000000
+        -79.936043,40.447926,0.000000
+        -79.942474,40.447529,0.000000
+        -79.948990,40.446987,0.000000
+        -79.951530,40.446743,0.000000
+        -79.952362,40.446220,0.000000
+        -79.954781,40.444439,0.000000
+        -79.953789,40.443600,0.000000
+        -79.953575,40.443192,0.000000
+        -79.948753,40.444424,0.000000
+        -79.945854,40.444553,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>University Center Turn-around</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.941811,40.444187,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Beechwood Blvd.</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short Route)</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-79.915581,40.453724,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bakery Square (Google)</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-79.915108,40.456108,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Walnut Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-79.922729,40.455929,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Howe Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-79.921997,40.454571,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shady Avenue at Fifth Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-79.921051,40.452972,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Emerson Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-79.922386,40.452694,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Highland Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-79.923950,40.452106,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at College Street</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-79.925774,40.451370,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Maryland Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-79.927444,40.450703,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Negley Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-79.929550,40.450001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at South Negely Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-79.934097,40.448582,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fifth Avenue at Wilkins Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-79.936783,40.447960,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bigelow Blvd. at Forbes Avenue</name>
+    <description><![CDATA[<div dir="ltr">Scheduled - Bakery Square (Short) Route</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-79.953796,40.443272,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Line 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -79.942986,40.444645,0.000000
+        -79.941536,40.444401,0.000000
+        -79.941444,40.444382,0.000000
+        -79.941772,40.444221,0.000000
+        -79.941437,40.444374,0.000000
+        -79.942207,40.444527,0.000000
+        -79.943039,40.444633,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

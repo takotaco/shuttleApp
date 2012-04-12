@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Shuttle Pick Up Locations</name>
+  <description><![CDATA[]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Morewood Turnaround</name>
+    <description><![CDATA[<div dir="ltr">A Route<br>B Route<br>AB Route<br>C Route<br>PTC</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-79.942505,40.445518,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>PTC</name>
+    <description><![CDATA[<div dir="ltr">PTC<br></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-79.964180,40.432724,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CIC</name>
+    <description><![CDATA[<div dir="ltr">Bakery Square Long<br>Bakery Square Short<br></div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-79.946106,40.444553,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bakery Square</name>
+    <description><![CDATA[<div dir="ltr">Bakery Square Long<br>Bakery Square Short<br></div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.915314,40.456127,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
