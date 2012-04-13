@@ -5,7 +5,7 @@ var RouteC = 3;
 var BakerySquareL = 4;
 var BakerySquareS = 5;
 var PTCroute = 6;
-
+var routeNamesList=["A","B","AB","C","Bakery Square Long","Bakery Square Short","PTCroute"];
 
 // ALGORITHM FOR CALULCATING BEST STOP
 //
@@ -48,6 +48,7 @@ function getDistance(x1,y1,x2,y2){
 function stopToEnd(route,endx,endy,ith){
     var nearestStop;
     var minDistance = 999999;
+    var jth;
     // for each stop in the route calculate its
     // distance and then find the minimum distance
     // stopx
@@ -60,7 +61,7 @@ function stopToEnd(route,endx,endy,ith){
 	    nearestStop = route[i];
 	}
     }
-    return [minDistance,nearestStop];
+    return [minDistance,nearestStop,jth];
 }
 
 // given a route and a destination
@@ -86,7 +87,7 @@ function startToEnd(route,endx,endy){
     }
     // with remaining stops on route get clsest distance to end
     var res2= stopToEnd(route,endx,endy,ith);
-    return [minDistance+res2[0], nearestStop,res2[1]];
+    return [minDistance+res2[0], nearestStop,res2[1],ith,res2[2]];
 
 }
 
@@ -96,6 +97,10 @@ function getBestStops(endx,endy){
     var minDist= 999999;
     var getOn;
     var getOff;
+    var ithRoute;
+    var getOnName;
+    var getOffName;
+    //var check= allStops;
     var routes = [routeA, routeB, routeAB, routeC, bakerySquareL, bakerySquareS, PTC];
     // for each route calculate best route
     for (var i=0; i < routes.length; i++){
@@ -104,11 +109,16 @@ function getBestStops(endx,endy){
             minDist=res[0];
             getOn= res[1];
             getOff=res[2];
+	    ithRoute=i;
+	    //	    getOnName = allStops[i][res[3]];
+	    //getOffName = allStops[i][res[4]];
         }
     }
     // return the optimal stop to get on from start
     // and stop to get off to end
-    return [getOn,getOff];
+      alert(routeAstopNames[0]);
+    alert(routeNamesList[ithRoute]+getOnName+getOffName);
+    return [getOn,getOff,routeNamesList[ithRoute]];//,getOnName,getOffName];
 
 }
 

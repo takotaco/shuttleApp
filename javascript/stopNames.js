@@ -1,25 +1,30 @@
-var routeAstopNames = ["Morewood Gardens Turn-around", "
-Forbes and South Craig", "
-South Dithridge at Wiinthrop Street", "
-North Dithridge at Fifth Avenue", "
-North Dithridge Street at Bayard Street ", "
-North Dithridge Street at Centre Avenue", "
-Centre Avenue at Melwood Avenue", "
-Centre Avenue at North Neville Street", "
-Centre Avenue at Devonshire Street", "
-Centre Avenue at Morewood Avenue", "
-Centre Avenue at Cypress Street", "
-Centre Avenue at South Aiken Avenue", "
-Centre Avenue at South Negley Avenue", "
-South Negley Avenue at Ellsworth Avenue", "
-South Negley Avenue at Elmer Street", "
-South Negley Avenue at Walnut Street", "
-South Negley Avenue at Howe Street", "
-South Negley Avenue at Fifth Avenue", "
-Fifth Avenue at Bellfonte Street", "
-Fifth Avenue at South Aiken Avenue", "
-Fifth Avenue at Wilkins Avenue"];
 
+/*
+var allStops =[routeAstopNames,routeBstopNames,routeABstopNames,routeCstopNames,
+	       bakerySquareLongstopNames, bakerySquareShortstopNames,PTCstopNames];
+*/
+
+var routeAstopNames = ["Morewood Gardens Turn-around", "Forbes and South Craig",
+"South Dithridge at Wiinthrop Street",
+"North Dithridge at Fifth Avenue",
+"North Dithridge Street at Bayard Street ",
+"North Dithridge Street at Centre Avenue",
+"Centre Avenue at Melwood Avenue",
+"Centre Avenue at North Neville Street",
+"Centre Avenue at Devonshire Street",
+"Centre Avenue at Morewood Avenue",
+"Centre Avenue at Cypress Street",
+"Centre Avenue at South Aiken Avenue",
+"Centre Avenue at South Negley Avenue",
+"South Negley Avenue at Ellsworth Avenue",
+"South Negley Avenue at Elmer Street",
+"South Negley Avenue at Walnut Street",
+"South Negley Avenue at Howe Street",
+"South Negley Avenue at Fifth Avenue",
+"Fifth Avenue at Bellfonte Street",
+"Fifth Avenue at South Aiken Avenue",
+"Fifth Avenue at Wilkins Avenue"];
+/*
 var routeBstopNames = ["Morewood Gardens Turn-around", "
 Fifth Avenue at Wilkins Avenue", "
 Fifth Avenue at South Aiken Avenue", "
@@ -159,3 +164,4 @@ Tech Street and Frew Street (Tepper)", "
 South Dithridge at Winthrop Street", "
 4616 Henry Street (INI)", "
 300 South Craig Street"];
+*/
