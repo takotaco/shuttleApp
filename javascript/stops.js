@@ -59,6 +59,7 @@ function stopToEnd(route,endx,endy,ith){
 	if (distance < minDistance) {
 	    minDistance = distance;
 	    nearestStop = route[i];
+	    jth=i;
 	}
     }
     return [minDistance,nearestStop,jth];
@@ -100,7 +101,8 @@ function getBestStops(endx,endy){
     var ithRoute;
     var getOnName;
     var getOffName;
-    //var check= allStops;
+    var allStops =[routeAstopNames,routeBstopNames,routeABstopNames,routeCstopNames,
+		   bakerySquareLongstopNames, bakerySquareShortstopNames,PTCstopNames];
     var routes = [routeA, routeB, routeAB, routeC, bakerySquareL, bakerySquareS, PTC];
     // for each route calculate best route
     for (var i=0; i < routes.length; i++){
@@ -110,15 +112,16 @@ function getBestStops(endx,endy){
             getOn= res[1];
             getOff=res[2];
 	    ithRoute=i;
-	    //	    getOnName = allStops[i][res[3]];
-	    //getOffName = allStops[i][res[4]];
+
+	    getOnName = allStops[i][res[3]];
+	    getOffName = allStops[i][res[4]];
         }
     }
     // return the optimal stop to get on from start
     // and stop to get off to end
-      alert(routeAstopNames[0]);
-    alert(routeNamesList[ithRoute]+getOnName+getOffName);
-    return [getOn,getOff,routeNamesList[ithRoute]];//,getOnName,getOffName];
+
+
+    return [getOn,getOff,routeNamesList[ithRoute],getOnName,getOffName];
 
 }
 
@@ -159,7 +162,7 @@ function preGetBestStops(){
 			    // draw the directions
 			    directionsDisplay.setDirections(response);
 			    // user generated message
-			    alert("Walk to point B, get on shuttle. get off a point C, walk to point D");
+			    alert("Walk to "+stops[3]+"(point B) get on shuttle:"+stops[2]+". Get off at "+stops[4]+"(point C) ,then walk to destination "+end+ "(point D)");
 			}
 		    });
             }

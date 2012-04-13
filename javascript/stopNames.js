@@ -25,7 +25,7 @@ var routeAstopNames = ["Morewood Gardens Turn-around",
 "Fifth Avenue at Bellfonte Street",
 "Fifth Avenue at South Aiken Avenue",
 "Fifth Avenue at Wilkins Avenue"];
-"
+
 var routeBstopNames = ["Morewood Gardens Turn-around",
 "Fifth Avenue at Wilkins Avenue",
 "Fifth Avenue at South Aiken Avenue",
@@ -46,7 +46,7 @@ var routeBstopNames = ["Morewood Gardens Turn-around",
 "Fifth Avenue at South Highland Avenue",
 "Fifth Avenue at College Street",
 "Fifth Avenue at Maryland Avenue"];
-"
+
 var routeABstopNames = ["Morewood Gardens Turn-around",
 "Forbes Avenue at South Craig Street",
 "South Dithridge Street at Winthrop Street",
@@ -77,7 +77,7 @@ var routeABstopNames = ["Morewood Gardens Turn-around",
 "Fifth Avenue at Bellefonte Street",
 "Fifth Avenue at South Aiken Avenue",
 "Fifth Avenue at Wilkins Avenue"];
-"
+
 var routeCstopNames = ["Morewood Gardens Turn-around",
 "Fifth Avenue at North Neville Street",
 "South Craig Street and Winthrop Street",
@@ -111,7 +111,7 @@ var routeCstopNames = ["Morewood Gardens Turn-around",
 "Beeler Street at Wilkins Avenue",
 "Beeler Street at Beelermont Place",
 "Beeler Street at Unger Lane"];
-"
+
 var bakerySquareLongstopNames = ["Forbes Avenue (CIC)",
 "Bakery Square (Long Route)",
 "University Center Turn-around",
@@ -133,7 +133,7 @@ var bakerySquareLongstopNames = ["Forbes Avenue (CIC)",
 "Fifth Avenue at South Aiken Avenue",
 "Fifth Avenue at Wilkins Avenue",
 "Bigelow Blvd. at Forbess Avenue"];
-"
+
 var bakerySquareShortstopNames = ["CIC",
 "Bakery Square (Short Route)",
 "University Center Turn-around",
@@ -150,12 +150,12 @@ var bakerySquareShortstopNames = ["CIC",
 "Fifth Avenue at South Negely Avenue",
 "Fifth Avenue at Wilkins Avenue",
 "Bigelow Blvd. at Forbes Avenue"];
-"
+
 var PTCstopNames = ["Morewood Gardens Turn-around",
 "Frew Street at Tech Street",
 "Frew Street (Porter Hall)",
 "PTC-Pittsburgh Technology Center"];
-"
+
 var escortstopNames = ["Frew Street (Porter Hall)",
 "Morewood E-Tower (Rear)",
 "Forbes Avenue (Hamburg Hall)",
