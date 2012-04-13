@@ -12,3 +12,6 @@ var mylat;
 var mylong;
 // marker for current location
 var Currentmarker;
+
+
+
