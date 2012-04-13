@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Welcome to the CMU shuttle App!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> 
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.2/jquery.mobile-1.1.0-rc.2.min.css" />
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.1.0-rc.2/jquery.mobile-1.1.0-rc.2.min.js"></script>
+  <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHuRsJH37S3hiW7ig9SJBnCJQ_1H3Zf_w&sensor=true&libraries=geometry">
+  </script>
+
+    <!-- our Javascripts -->
+
+    <!-- all global variables used -->
+    <script src="javascript/globalvars.js"></script>
+    <!-- install geolocation -->
+    <script src="javascript/geolocator.js"></script>
+    <!-- different settings based on mobile phone/ webpage -->
+    <script src="javascript/detectBrowser.js"></script>
+    <!-- embeded buttons on the map-->
+    <script src="javascript/controls.js"></script>
+    <!-- kml routes -->
+    <script src="javascript/routes.js"></script>
+    <!-- geocoding -->
+    <script src="javascript/geocode.js"></script>
+    <!-- current location to nearest bus stop -->
+    <script src="javascript/calculateRoute.js"></script>
+    <!-- stops -->
+    <script src="javascript/stops.js"></script>
+    <!-- Initialize google maps-->
+    <script src="javascript/initialize.js"></script>
+ </head>
+ 
+<body>
+
+<!-- Start of first page -->
+<div data-role="page" id="info">
+
+	<div data-role="header">
+		<h1>Welcome!</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p> Welcome to the cmu shuttle app! </p>		
+		<p> Continue to app: <a href="#app">app</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Hey y'all</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of second page -->
+<div data-role="page" id="app">
+
+	<div data-role="header">
+		<h1>dis be the app</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+	   <p> hey there ;) </p>
+           <div id="menu">
+           <input id="button3" type="button" value="enter a location then click go" onclick="preGetBestStops()">
+           <input id="address" type = "textbox" value="Shadyside">
+           </div>
+           <div id="map_canvas"></div>
+	   <body onload="initialize()"></body>
+           <p><a href="#info">Back to info</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>ahahahaha</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html> 
