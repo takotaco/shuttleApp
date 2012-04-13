@@ -14,7 +14,6 @@ function codeAddress() {
  }
 
 function setStartLocation() {
-  alert("Called setStartLocation()");
   var address = document.getElementById("startAddress").value + ",Pittsburgh, PA";
   geocoder.geocode( { 'address': address}, function(results, status) {
    if (status == google.maps.GeocoderStatus.OK) {
