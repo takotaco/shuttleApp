@@ -20,6 +20,7 @@ function displayPosition(pos) {
 	    map: map,
 	    title:"You are here"
 	});
+
 }
 // Error callback function
 function errorFunction(pos) {
