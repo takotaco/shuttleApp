@@ -1,4 +1,12 @@
-
+// When ready...
+ window.addEventListener("load",function() {
+ 	// Set a timeout...
+ 		setTimeout(function(){
+ 				// Hide the address bar!
+ 						window.scrollTo(0, 1);
+ 							}, 0);
+ 							});
+ 							
 
 function initialize() {
 
@@ -16,7 +24,7 @@ function initialize() {
     directionsDisplay = new google.maps.DirectionsRenderer();
     directionsDisplay.setMap(map);
     // add route layers
-    allKMLRoutes(map);
+    //allKMLRoutes(map);
     // install the geocoder
     geocoder = new google.maps.Geocoder();
     geolocate();

@@ -4,13 +4,15 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <style type="text/css">
       html { height: 100% }
-      body { height: 100%; margin: 0; padding: 0 }
-      #map_canvas { height: 100% }
+      body { height: 95%; width: 100%; margin: 0px; padding: 0 }
+      #map_canvas { height: 100%; width: 100%; }
     </style>
     <script type="text/javascript"
       src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHuRsJH37S3hiW7ig9SJBnCJQ_1H3Zf_w&sensor=true&libraries=geometry">
     </script>
 
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="mapstyle.css" />
 
     <!-- our Javascripts -->
 
@@ -41,10 +43,11 @@
 
   </head>
   <div id="menu">
-    <input id="startAddress" type = "textbox" value="start location">
-    <input id="startAddressButton" type="button" value="use this start location" onclick="setStartLocation()">
-    <input id="address" type = "textbox" value="Shadyside">
-    <input id="button3" type="button" value="enter a location then click go" onclick="preGetBestStops()">
+    <input id="startAddress" type = "textbox" value="Enter Start Location">
+    <input id="startAddressButton" class=coolbutton type="button" value="Set" onclick="setStartLocation()">
+    <br>
+    <input id="address" type ="textbox" value="Enter Destination">
+    <input id="button3" class=coolbutton type="button" value="Get Directions" onclick="preGetBestStops()">
 
     <!-- <input id="button" type="button" value="click here if you think jim is awesome" onclick="codeAddress()">
     <input id="button2" type="button" value="directions to entered address from where you are" onclick="calcRoute()">-->
@@ -54,4 +57,7 @@
   <!-- initialioze everything-->
   <body onload="initialize()">
   </body>
+  <div id="footer">
+  <a href="help.html" class=coolbutton>Help</a>
+  </div>
 </html>

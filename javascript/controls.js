@@ -8,9 +8,9 @@ function HomeControl(controlDiv, map) {
 
     // Set CSS for the control border.
     var controlUI = document.createElement('div');
-    controlUI.style.backgroundColor = 'yellow';
+    controlUI.style.backgroundColor = 'white';
     controlUI.style.borderStyle = 'solid';
-    controlUI.style.borderWidth = '3px';
+    controlUI.style.borderWidth = '1px';
     controlUI.style.cursor = 'pointer';
     controlUI.style.textAlign = 'center';
     controlUI.title = 'Click to set the map to Home';
@@ -22,7 +22,9 @@ function HomeControl(controlDiv, map) {
     controlText.style.fontSize = '12px';
     controlText.style.paddingLeft = '4px';
     controlText.style.paddingRight = '4px';
-    controlText.innerHTML = '<strong>Where Am i?<strong>';
+    controlText.style.paddingTop = '2px';
+    controlText.style.paddingBottom = '2px';
+    controlText.innerHTML = '<strong>Where am I?<strong>';
     controlUI.appendChild(controlText);
 
     // Setup the click event listeners: simply set the map to current location.
