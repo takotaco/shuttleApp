@@ -9,6 +9,7 @@ var routeNamesList=["A","B","AB","C","Bakery Square Long","Bakery Square Short",
 
 // ALGORITHM FOR CALULCATING BEST STOP
 //
+//
 // 1. calulate the best possible geton stop/ get off stop for each route
 //    a. find the nearest get on point
 //    b. find the nearest get off point from points ahead of get-on
