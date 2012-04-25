@@ -131,7 +131,7 @@ function getBestStops(endx,endy){
 // after main function is called it gets everything
 function preGetBestStops(){
     // add pittsburgh Pa to ensure local results
-    var end = document.getElementById("address").value+" ,pittsburgh,PA";
+    var end = document.getElementById("address").value+", Pittsburgh, PA";
     var endx;
     var endy;
     var waitforgeocode=false;
@@ -163,7 +163,7 @@ function preGetBestStops(){
 			    // draw the directions
 			    directionsDisplay.setDirections(response);
 			    // user generated message
-			    alert("Walk to "+stops[3]+"(point B) get on shuttle:"+stops[2]+". Get off at "+stops[4]+"(point C) ,then walk to destination "+end+ "(point D)");
+			    alert("Walk to "+stops[3]+" (A) \n Get on Shuttle "+stops[2]+" (B) \n Get off at "+stops[4]+" (C) \n Walk to destination "+end+ " (D)");
 			}
 		    });
             }
