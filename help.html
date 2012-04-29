@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 95%; width: 100%; margin: 0px; padding: 0 }
+      #map_canvas { height: 100%; width: 100%; }
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHuRsJH37S3hiW7ig9SJBnCJQ_1H3Zf_w&sensor=true&libraries=geometry">
+    </script>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="mapstyle.css" />
+
+    <!-- our Javascripts -->
+
+    <!-- all global variables used -->
+    <script src="javascript/globalvars.js"></script>
+    <!-- install geolocation -->
+    <script src="javascript/geolocator.js"></script>
+    <!-- different settings based on mobile phone/ webpage -->
+    <script src="javascript/detectBrowser.js"></script>
+    <!-- embeded buttons on the map-->
+    <script src="javascript/controls.js"></script>
+    <!-- kml routes -->
+    <script src="javascript/routes.js"></script>
+    <!-- geocoding -->
+    <script src="javascript/geocode.js"></script>
+    <!-- current location to nearest bus stop -->
+    <script src="javascript/calculateRoute.js"></script>
+
+    <!-- names of stops -->
+    <script src="javascript/stopNames.js"></script>
+    <!-- stops -->
+    <script src="javascript/stops.js"></script>
+    <!-- Initialize google maps-->
+    <script src="javascript/initialize.js"></script>
+
+
+  </head>
+
+
+<div id="footer">
+Help
+</div>
+<body onload="initialize()">
+Welcome to the CMU Shuttle and Escort App!
+<br>
+<br>
+<b>Directions:</b>
+<br>
+<b>1.</b> Enter your current location or desired start location in the "Start Location" text box. Click "set" to set this as the start location.
+<br>
+<b>2.</b> Next, enter your destination in the "Enter Destination" text box. 
+<br>
+<b>3.</b> Now hit "Get Directions". An alerty text box will pop up, tell you how to use the shuttle to get to your desired destination.
+<br>
+<br>
+<b>About:</b>
+<br>
+The CMU shuttle and escort App was created by:
+<br>
+Laine Herron
+<br>
+Elizabeth Keller
+<br>
+Ken Murphey
+<br>
+Jim Zhang
+<br>
+for 15-221: Technical Communications in the Spring of 2012.
+</body>
+<div id="footer">
+<a href="index.html" class=coolbutton>Back to the App</a>
+</div>
+</html>
